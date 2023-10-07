@@ -673,6 +673,7 @@ letter-spacing: 0.04em;
 .checkbox-link {
   color: #4d5ae5;
 }
+
 .checkbox-imitation {
   fill: transparent;
   stroke: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
@@ -685,7 +686,7 @@ letter-spacing: 0.04em;
   border-radius: 2px; 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.checkbox:checked + .user-privacy-label > .checkbox-imitation > .icon-imitation {
+.checkbox:checked + .user-privacy-label > .checkbox-imitation {
  background-color:#404bbf;
  border: none;
  fill: #F4F4FD;;
