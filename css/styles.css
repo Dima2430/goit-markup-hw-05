@@ -652,6 +652,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+   margin-left: 80px;
 }
 .subscribe-header {
   color: var(--WHITE, #fff);
@@ -698,9 +699,7 @@ img {
   margin-left: 24px;
 }
 
-.subscribe-container {
-  margin-left: 80px;
-}
+
 .subscribe-form {
   display: flex;
 }
